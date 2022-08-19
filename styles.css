@@ -1,6 +1,10 @@
 :root{
     --main:rgb(0,119,101)
 }
+a{
+    color:white;
+    text-decoration: none;
+}
 *{font-family:Helvetica, sans-serif;}
 body{margin:0}
 #top{
