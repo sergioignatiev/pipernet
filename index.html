@@ -7,7 +7,7 @@
 <body>
 <div id="top">
 <div class="container inner-top">
-<div><img style="height:40px" src="head.png"></div>
+<div><img id="headImg" style="height:40px" src="head.png"></div>
 <div id="right-corner">
 <div><p class="margin">the problem</p></div>
 <div ><p class="margin" id="center-right" >PierPipedCoin</p></div>
@@ -71,4 +71,19 @@ The more you share your device resources, the more PiedPiperCoin you receive.</p
     </div>
 </footer>
 </body>
+<script>
+    setInterval(imgTop,1)
+function imgTop(){
+let w=window.innerWidth;
+let im=document.getElementById("headImg")
+if(w<460){
+    im.src="headnew.png"
+}else{
+    im.src="head.png"
+}
+
+}
+
+</script>
+
 </html>
