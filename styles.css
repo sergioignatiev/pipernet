@@ -4,7 +4,9 @@
 a{
     color:white;
     text-decoration: none;
+    
 }
+a:hover{color:black}
 *{font-family:Helvetica, sans-serif;}
 body{margin:0}
 #top{
@@ -38,6 +40,7 @@ border-right:2px solid white;
 .margin{padding-left:7px;
     padding-right:7px;
 }
+
 .inner-top{
 display:flex;
 justify-content: space-between;
